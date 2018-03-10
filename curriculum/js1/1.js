@@ -5,8 +5,8 @@
  * @returns {number}
  */
 
-const solution = (a, b) => {
-  return 0;
+const solution = (a, b) => {var sum  =a + b;
+  return sum;
 };
 
 module.exports = {
