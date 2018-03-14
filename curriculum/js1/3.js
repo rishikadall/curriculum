@@ -6,8 +6,10 @@
  */
 
 const solution = (a, b) => {
-  return 0;
-};
+       if (a == 1) { return b; }
+      else {
+                return b + times(a - 1, b);
+            }
 
 module.exports = {
   solution,
